@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Летим на ГОА</h1>
+    <p>После курса верстки</p>
+    <img src="airasia.github.io/root/project/img/1picture.jpg" width="300" height="207">
+    <div>
+        <img src="../../img/2picture.jpg" width="300" height="207">
+        <?php
+echo 'Document root: '.$_SERVER['DOCUMENT_ROOT'].'
+';
+echo 'absolute path: '.$_SERVER['SCRIPT_FILENAME'].'
+';
+echo 'name: '.$_SERVER['SCRIPT_NAME'];
+?>
+    </div>
+</body>
+</html>
